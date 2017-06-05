@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 @Controller
 @RequestMapping("/")
 public class IndexController {
- 
+ //Entry Controller
       @RequestMapping(method = RequestMethod.GET)
         public String getIndexPage() {
             return "UserManagement";
